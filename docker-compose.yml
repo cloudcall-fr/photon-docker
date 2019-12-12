@@ -1,11 +1,11 @@
-version: '3.4'
+version: '3.5'
 services:
   photon:
     build:
       network: host
       context: .
       dockerfile: Dockerfile
-    image: jfelectron/geocoder
+    image: lubojr/geocoder
     volumes:
       - data:/photon/photon_data
     ports:
