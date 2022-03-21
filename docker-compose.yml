@@ -5,7 +5,7 @@ services:
       network: host
       context: .
       dockerfile: Dockerfile
-    image: lubojr/geocoder
+    image: llindemann/geocoder
     volumes:
       - data:/photon/photon_data
     ports:
